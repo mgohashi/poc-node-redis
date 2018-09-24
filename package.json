@@ -1,0 +1,20 @@
+{
+  "name": "poc-node-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "node gen.js",
+    "load": "node load_redis.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "JSONStream": "^1.3.4",
+    "event-stream": "^4.0.0",
+    "faker": "^4.1.0",
+    "redis": "^2.8.0",
+    "redis-commands": "^1.3.5",
+    "then-redis": "^2.0.1"
+  }
+}
